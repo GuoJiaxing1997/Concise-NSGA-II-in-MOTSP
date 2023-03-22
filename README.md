@@ -30,7 +30,7 @@ Three functions: FastNonDominatedSort(), CrowdingDistance(), CrowdingDistanceSor
 
 Two objective functions are considered: total distance and total cost of TSP
 
-## GenerateOffspring.py
+## GA.py
 
 GA的流程，其中交叉函数确保了不会产生非法解（遗漏城市或一个城市遍历了两次）
 
