@@ -1,4 +1,4 @@
-# Concise-NSGA-II-in-MOTSP
+# a Concise NSGA-II algorithm example in Multi-objective TSP (MOTSP)
 
 一个简明扼要的NSGA-II算法实例，用于解决多目标TSP（MOTSP），适用于初学者与大学生
 
