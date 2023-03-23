@@ -38,6 +38,10 @@ GA process, in which the crossover function ensures that no illegal solution wil
 
 ## Data.py and Decode.py
 
-输入了一个距离矩阵和成本矩阵。在Decode中，可将当前种群的两个目标函数列表计算并返回。
+Data.py给出了一个距离矩阵和成本矩阵。
 
-A distance matrix and a cost matrix have been entered. In Decode, you can calculate and return a list of two objective functions for the current population.
+A distance matrix and a cost matrix have been gived in Data.py
+
+在Decode中，可将当前种群的两个目标函数列表计算并返回。
+
+In Decode, calculate and return a list of two objective functions for the current population.
