@@ -2,7 +2,7 @@
 
 一个简明扼要的NSGA-II算法实例，用于解决多目标TSP（MOTSP），适用于初学者与大学生
 
-a Concise NSGA-II algorithm example in Multi-objective TSP (MOTSP) for beginners and College Students
+A Concise NSGA-II algorithm example in Multi-objective TSP (MOTSP) for beginners and College Students
 
 提供丰富的中英文注释，可帮你快速理解整个算法流程
 
@@ -18,7 +18,7 @@ Limited personal level. Please forgive any omissions or errors
 
 作者：吴，某B大学，中国
 
-author: Wu, N?E? University, China
+Author: Wu, N?E? University, China
 
 ## NSGA2.py
 
