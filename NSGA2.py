@@ -40,7 +40,6 @@ class NSGA2(object):
         permutations = []
         for i in range(population_size):
             tour = [j + 1 for j in range(length_chromosome)]
-            random.seed()
             random.shuffle(tour)
             permutations.append(tour[:])
             pass

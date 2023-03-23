@@ -24,7 +24,6 @@ class GA(object):
         self.mutation_variable = 1
 
     def Run(self):
-        random.seed()
         while len(self.offspring) != len(self.parent_population):
 
             # 选择，选了两个个体，赋值给了self.parentA，self.parentAB
@@ -45,7 +44,6 @@ class GA(object):
         return self.offspring
 
     def Selection(self, population):
-        random.seed()
         a, b = random.sample(range(self.population_size), 2)
         self.parentA = population[a][:]
         self.parentB = population[b][:]
@@ -53,7 +51,6 @@ class GA(object):
     def Crossover(self, parentA, parentB):
         # 随机选择交叉区间的起始和结束位置
         # Randomly select the starting and ending positions of the crossover interval
-        random.seed()
         crossover_start = random.randint(0, self.length_chromosome - 2)
         crossover_end = random.randint(crossover_start + 1, self.length_chromosome - 1)
 
@@ -94,7 +91,6 @@ class GA(object):
     def Mutation(self, life):
         # 产生两个随机点
         # Generate 2 Random Points
-        random.seed()
         a, b = sorted(random.sample(range(self.length_chromosome), 2))
         life[a], life[b] = life[b], life[a]
 
