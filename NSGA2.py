@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Author : Wu, N?E? University, China
 # @GitHub : GuoJiaxing1997
 # @Time : 2023/3/22 15:59
 # 英文与中文注释
