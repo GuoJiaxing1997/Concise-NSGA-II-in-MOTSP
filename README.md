@@ -16,10 +16,6 @@ If you don't know where to start, this project is highly recommended!
 
 Limited personal level. Please forgive any omissions or errors
 
-作者：吴，某B大学，中国
-
-Author: Wu, N?E? University, China
-
 ## NSGA2.py
 
 三个函数：快速非支配排序，拥挤度计算，基于拥挤度的排序，为此类的主要功能。代码中提供了丰富的注释，在此不过多赘述。
